@@ -43,6 +43,7 @@ class Utilities{
         }
         return $pokemonTypeList;
     }
+    
 
     public function GetCookieTime(){
         return time() + 60*60*24*30;
