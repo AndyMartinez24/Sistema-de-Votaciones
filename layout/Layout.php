@@ -7,7 +7,6 @@
             $this->gettingImages = ($getPage) ? "../" :"" ;
         }
 
-
         public function printHeader(){
             $Header = <<<EOF
             <html lang="en">
