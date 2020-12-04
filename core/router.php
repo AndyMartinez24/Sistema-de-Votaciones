@@ -9,6 +9,7 @@ include "candidato\candidato.php";
 include "eleccion/eleccion.php";
 include "helper/condicion.php";
 
+
 $clasesAdmin = array("candidato", "eleccion", "partido", "puesto", "ciudadano","usuario");
 
 $clasesUser = array("usuario");
