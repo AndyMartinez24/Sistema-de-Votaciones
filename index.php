@@ -1,6 +1,7 @@
 <?php
 require_once 'layout/Layout.php';
 
+
 session_start();
 if (isset($_GET["usuario"])) {
   $_SESSION['usuario'] = $_GET["usuario"];
