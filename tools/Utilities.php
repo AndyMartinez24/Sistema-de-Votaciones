@@ -5,6 +5,7 @@ class Utilities{
         $countList = count($list);
         $lastElement = $list[$countList - 1];
 
+        
         return $lastElement;
     }
 
